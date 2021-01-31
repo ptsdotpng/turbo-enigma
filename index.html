@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twitch_pic</title>
+    <style>
+        #profile_photo  { width:  800px;    height:  800px; }
+        #profile_banner { width: 1920px;    height:  480px; }
+        #vid_banner     { width: 1920px;    height: 1080px; }
+        #vid_thumb      { width: 1280px;    height:  720px; }
+        #cover_image    { width:  380px;    height: 1200px; }
+        #info_panel     { width: 320px;     height:  200px; }
+
+        html {
+          font-family: scientifica;
+        }
+
+        body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        body > * {
+          margin: 2rem;
+        }
+
+        #profile_photo {
+          border: 20px solid #7CBF9E;
+          border-radius: 100%;
+          font-size: 275px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          padding-left: 10px;
+          background-color:    #021B21;
+          color: #7CBF9E;
+        }
+
+        #profile_banner {
+          /* border: 20px solid #7CBF9E; */
+          /* border-radius: 100%; */
+
+          font-size: 275px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          padding-left: 10px;
+          background-color:    #021B21;
+          color: #7CBF9E;
+
+          background: repeating-linear-gradient(
+            5deg,
+            #021B21,
+            #021B21 40px,
+            #A2D9B1 40px,
+            #A2D9B1 80px
+          );
+        }
+
+        #profile_photo_too {
+          border: 20px solid #7CBF9E;
+          border-radius: 100%;
+          font-size: 275px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          padding-left: 10px;
+          background-color:    #021B21;
+          color: #7CBF9E;
+
+          height: 900px;
+          width: 900px;
+          margin-right: 50px;
+        }
+
+        #vid_banner {
+            /* border: 20px solid #7CBF9E; */
+          /* border-radius: 100%; */
+
+
+
+          font-size: 275px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          box-sizing: border-box;
+          padding-left: 10px;
+          background-color: #021B21;
+          color: #7CBF9E;
+
+          background: repeating-linear-gradient(
+            5deg,
+            #021B21,
+            #021B21 40px,
+            #A2D9B1 40px,
+            #A2D9B1 80px
+          );
+        }
+
+        #vid_name {
+          margin-left: 50px;
+          background-color:    #021B21;
+          color: #7CBF9E;
+          border: 20px solid #7CBF9E;
+          padding: 50px;
+          padding-left: 70px;
+          padding-right: 200px;
+          line-height: 175px;
+        }
+
+        #vid_name div:last-child {
+          margin-top: -48px;
+          margin-bottom: 50px;
+
+        }
+
+        .pts {color: #7CBF9E;}
+        .dot {color: #EF5847;}
+        .png {color: #61778D;}
+
+    </style>
+</head>
+<body>
+    <div id="profile_photo">
+      ( ._.)
+    </div>
+    <div id="profile_banner">
+
+    </div>
+    <div id="vid_banner">
+      <div id="vid_name">
+        <div class="pts" >pts</div>
+        <div class="dot" >dot</div>
+        <div class="png" >png</div>
+      </div>
+      <div id="profile_photo_too">
+        ( ._.)
+      </div>
+    </div>
+    <div id="vid_thumb"></div>
+    <div id="cover_image"></div>
+    <div id="info_panel"></div>
+</body>
+</html>
